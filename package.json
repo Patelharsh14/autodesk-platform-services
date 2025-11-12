@@ -1,0 +1,22 @@
+{
+  "name": "aps-acc-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aps_sdk/authentication": "^1.0.0",
+    "@aps_sdk/construction-account-admin": "^1.2.1",
+    "@aps_sdk/data-management": "^1.1.2",
+    "cookie-session": "^2.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
